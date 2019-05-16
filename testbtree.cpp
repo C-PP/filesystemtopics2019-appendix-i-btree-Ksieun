@@ -1,5 +1,5 @@
 //#pragma warning(disable:4996)
-//tstbtree.cc
+//template은  **.h와 **.cpp를 분리하지 않고 **.h로 합쳐야 link error를 해결
 //#include "btnode.h"
 
 #include <iostream>
@@ -27,7 +27,8 @@ int main(int argc, char * argv) {
 		bt.Print(cout);
 	}
 	bt.Search(1, 1);
-
+	bt.Remove('L');//구현 - redistribute와 merge를 구현한다.
+	bt.InorderTraversal();
 	system("pause");
 	return 1;
 }
