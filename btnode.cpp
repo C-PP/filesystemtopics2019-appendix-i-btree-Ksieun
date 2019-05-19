@@ -1,4 +1,5 @@
 //btnode.tc
+/*
 #include <iostream>
 #include "simpind.h"
 #include "btnode.h"
@@ -162,3 +163,4 @@ int BTreeNode<keyType>::InitBuffer
 }
 
 #endif
+*/

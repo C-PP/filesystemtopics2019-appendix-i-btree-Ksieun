@@ -28,7 +28,7 @@ int main(int argc, char * argv) {
 	}
 	bt.Search(1, 1);
 	bt.Remove('L');//구현 - redistribute와 merge를 구현한다.
-	bt.InorderTraversal();
+	//bt.InorderTraversal();
 	system("pause");
 	return 1;
 }

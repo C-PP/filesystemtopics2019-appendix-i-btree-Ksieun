@@ -1,7 +1,7 @@
 #pragma once
 #ifndef RECFILE_H
 #define RECFILE_H
-
+//do not separate header from cpp for template
 #include "buffile.h"
 #include "iobuffer.h"
 // template class to support direct read and write of records

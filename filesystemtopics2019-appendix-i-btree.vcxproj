@@ -99,17 +99,27 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="btnode.cpp" />
-    <ClCompile Include="btree.cpp" />
+    <ClCompile Include="btnode.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="btree.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="buffile.cpp" />
     <ClCompile Include="fixfld.cpp" />
     <ClCompile Include="fixlen.cpp" />
-    <ClCompile Include="indbuff.cpp" />
-    <ClCompile Include="indnode.cpp" />
+    <ClCompile Include="indbuff.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="indnode.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="iobuffer.cpp" />
     <ClCompile Include="length.cpp" />
     <ClCompile Include="recording.cpp" />
-    <ClCompile Include="simpind.cpp" />
+    <ClCompile Include="simpind.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="testbtree.cpp" />
     <ClCompile Include="varlen.cpp" />
   </ItemGroup>

@@ -1,4 +1,5 @@
 //btnode.cpp
+/*
 #include <iostream>
 #include "simpind.h"
 #include "indnode.h"
@@ -164,3 +165,4 @@ int IndexNode<keyType>::InitBuffer(FixedFieldBuffer & buffer, int maxKeys, int k
 }
 
 #endif
+*/

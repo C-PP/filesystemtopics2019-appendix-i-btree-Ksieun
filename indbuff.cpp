@@ -1,5 +1,5 @@
 // indbuff.cpp
-
+/*
 #ifndef INDBUFF_TC
 #define INDBUFF_TC
 
@@ -65,3 +65,4 @@ void IndexBuffer<keyType>::Print(ostream & stream) const
 }
 
 #endif
+*/

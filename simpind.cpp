@@ -1,4 +1,5 @@
 //simpind.tc
+/*
 #include "simpind.h"
 #include "indbuff.h"
 #include <iostream>
@@ -112,3 +113,4 @@ int SimpleIndex<keyType>::Init(const int maxKeys, const int unique)
 	RecAddrs = new int[maxKeys];
 	return 1;
 }
+*/

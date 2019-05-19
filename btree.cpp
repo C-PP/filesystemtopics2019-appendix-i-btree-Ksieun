@@ -1,4 +1,5 @@
 //btree.tc
+/*
 #include "btree.h"
 #include "btnode.h"
 #include "indbuff.h"
@@ -199,3 +200,4 @@ int BTree<keyType>::Store(BTNode * thisNode)
 {
 	return BTreeFile.Write(*thisNode, thisNode->RecAddr);
 }
+*/
